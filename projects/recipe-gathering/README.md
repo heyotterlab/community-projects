@@ -47,7 +47,7 @@ The first commit was on Nov 23 and most of the build happened that evening. Reci
 
 ## Safe to share check
 
-- [ ] No passwords, API keys, tokens, `.env` contents or private keys (including screenshots)
-- [ ] No home public IP, personal data or private addresses
-- [ ] I wrote this or have the right to share it, and I've credited others
-- [ ] OtterLab may show this project, with credit to me, in the repo, Discord, website and social posts
+- [X] No passwords, API keys, tokens, `.env` contents or private keys (including screenshots)
+- [X] No home public IP, personal data or private addresses
+- [X] I wrote this or have the right to share it, and I've credited others
+- [X] OtterLab may show this project, with credit to me, in the repo, Discord, website and social posts
