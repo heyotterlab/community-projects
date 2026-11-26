@@ -1,0 +1,32 @@
+name: Report a problem
+description: Broken steps, a dead link, or something that shouldn't be public.
+title: "Problem: "
+labels: ["type: problem"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Found a password, key, token or someone's private information in a project?** Don't repeat it in this issue. Email conduct@otterlab.click or message a moderator on Discord, and we'll remove it fast. If it's yours, rotate it right away; deleting isn't enough.
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What kind of problem?
+      options:
+        - Steps don't work
+        - Broken link or image
+        - Unclear or confusing
+        - Something else
+    validations:
+      required: true
+  - type: input
+    id: where
+    attributes:
+      label: Where? (project name or link)
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+    validations:
+      required: true
