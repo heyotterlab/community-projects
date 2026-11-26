@@ -1,0 +1,24 @@
+name: Suggest an improvement
+description: An idea for a project, a guide, or how the community works.
+title: "Idea: "
+labels: ["type: idea"]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: What's your idea?
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why would it help?
+      description: Who would use it? What gets easier?
+  - type: dropdown
+    id: help
+    attributes:
+      label: Would you like to help build it?
+      options:
+        - Yes, point me in the right direction
+        - Maybe, tell me more
+        - No, just sharing the idea
