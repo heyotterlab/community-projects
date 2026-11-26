@@ -13,6 +13,8 @@ Folder: `projects/<slug>/`
 
 ## Safe to share
 
+Please tick every box below, or tell us why one doesn't apply. Not sure about one? Just ask, we'll help.
+
 - [ ] No passwords, keys, tokens, `.env` contents or private keys (including in screenshots)
 - [ ] No home public IP, personal data or private addresses
 - [ ] I wrote this, or I have the right to share it, and I've credited anyone who helped
