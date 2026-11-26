@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Chat with the community on Discord
+    url: https://discord.gg/nRgB8ARJ66
+    about: Quick questions, hellos and "is this normal?" are best on Discord. Beginners welcome.
+  - name: Read the community guidelines
+    url: https://github.com/heyotterlab/community-projects/blob/main/CODE_OF_CONDUCT.md
+    about: Be kind, no gatekeeping, never post secrets.
