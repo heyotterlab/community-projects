@@ -31,7 +31,7 @@ Unfinished and messy is welcome. A short card is a good card.
 
 | Project | One-liner | Category | Status | Author |
 |---|---|---|---|---|
-| _Be the first!_ | | | | |
+| [Recipe Gathering](projects/recipe-gathering/) | Searchable recipes with a weekly meal plan and shopping list | Vibe coding | Working | [OtterLab](https://github.com/heyotterlab) |
 
 ## Ground rules
 
