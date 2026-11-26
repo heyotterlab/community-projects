@@ -1,0 +1,7 @@
+# Maintainers for the community repo. Replace the owner after the org exists.
+# A pull request to a project folder is reviewed by the maintainers and, for a project the author
+# already owns, the author is also asked.
+*                       @heyotterlab
+/.github/               @heyotterlab
+/CODE_OF_CONDUCT.md     @heyotterlab
+/SECURITY.md            @heyotterlab
