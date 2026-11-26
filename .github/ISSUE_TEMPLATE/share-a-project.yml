@@ -1,0 +1,97 @@
+name: Share a project
+description: Tell us about something you built (or are building). Messy and unfinished is welcome.
+title: "Project: "
+labels: ["project: new"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for sharing! 🦦 Fill in what you can. Only the starred fields are required, and a short card is a good card.
+        No GitHub experience? That's fine. Josh or a helper can turn this into a project page with you.
+  - type: input
+    id: title
+    attributes:
+      label: Project name
+      placeholder: Expense Tracker
+    validations:
+      required: true
+  - type: input
+    id: oneliner
+    attributes:
+      label: One-liner
+      description: What it does and who it's for, in one sentence.
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - HomeLab
+        - Self-hosting
+        - Networking
+        - Vibe coding
+        - Home and life
+        - Hardware
+        - Other
+    validations:
+      required: true
+  - type: dropdown
+    id: status
+    attributes:
+      label: Status
+      options:
+        - Idea
+        - In progress
+        - Working
+        - Finished and polished
+    validations:
+      required: true
+  - type: dropdown
+    id: difficulty
+    attributes:
+      label: Difficulty (optional)
+      options:
+        - Starter (a weekend, little experience)
+        - Tinkerer (some experience)
+        - Deep end (lots of moving parts)
+  - type: textarea
+    id: what
+    attributes:
+      label: What it does
+      description: A few sentences. Drag a screenshot or photo in here too.
+    validations:
+      required: true
+  - type: textarea
+    id: built-with
+    attributes:
+      label: Built with
+      description: Hardware, software, languages, services. Say if an AI assistant helped; it helps others know what to expect.
+  - type: textarea
+    id: try-it
+    attributes:
+      label: How to try it
+      description: Steps, or a link to them.
+  - type: textarea
+    id: learned
+    attributes:
+      label: What I learned
+  - type: textarea
+    id: help
+    attributes:
+      label: What I'd love help with
+  - type: input
+    id: links
+    attributes:
+      label: Links (repo, demo, credits)
+  - type: checkboxes
+    id: safe
+    attributes:
+      label: Safe to share
+      options:
+        - label: I checked that there are no passwords, keys, tokens, home IP addresses or personal info in this post, including screenshots.
+          required: true
+        - label: I wrote this, or I have the right to share it, and I've credited anyone who helped.
+          required: true
+        - label: OtterLab may show this project, with credit to me, in the repo, Discord, website and social posts.
+          required: true
